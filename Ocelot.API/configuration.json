@@ -10,7 +10,20 @@
           "Port": 443
         }
       ],
-      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "SwaggerKey": "pedidos"
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "pedidos",
+      "Config": [
+        {
+          "Name": "Pedido API",
+          "Version": "v1",
+          "Url": "https://pedidoapi-ftbvbvfbbnc0huhn.eastus-01.azurewebsites.net/swagger/v1/swagger.json"
+        }
+      ]
     }
   ],
   "GlobalConfiguration": {
